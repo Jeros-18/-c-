@@ -4,33 +4,20 @@
 #include "Policer.h"
 #include "Teacher.h"
 #include "Tester.h"
-
-
-
-
-
-
+#include "login.h"
 
 int main()
 {
 	TeaManager Tmer1;
 	TestManager Tetmer;
 	PolicerManager Polimer;
+	user uesr;
+
+	uesr.Display();
+	cin.get();
+	
 	int a = 1, m = 0;
 	char c;
-	cout << "    *************************************";
-	cout << endl << "    $         高校人员管理系统         $" << endl;
-	cout << "    *************************************";
-	cout << endl << "请输入密码："; cin >> m;
-
-	if (m != 666)
-	{
-		cout << "密码错误！" << endl;
-		_flushall();
-		c = getchar();
-		return 0;
-	}
-
 	while (a)
 	{
 		system("cls");
@@ -61,5 +48,6 @@ int main()
 	cout << endl << "谢谢使用" << endl;
 	_flushall();
 	c = getchar();
+	
 	return 0;
 }

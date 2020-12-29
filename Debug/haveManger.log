@@ -1,2 +1,5 @@
 ﻿  main.cpp
+D:\1大学文件\C++\课设软件191贾慧\haveManger\login.h(34,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\1大学文件\C++\课设软件191贾慧\haveManger\login.h(67,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\1大学文件\C++\课设软件191贾慧\haveManger\login.h(63,6): warning C4102: “flag1”: 未引用的标签
   haveManger.vcxproj -> D:\1大学文件\C++\课设软件191贾慧\haveManger\Debug\haveManger.exe

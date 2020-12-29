@@ -142,6 +142,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="login.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Policer.h" />
     <ClInclude Include="Teacher.h" />

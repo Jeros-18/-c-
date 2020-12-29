@@ -16,7 +16,10 @@ public:
 public:
 	void input()
 	{
-		cin >> num >> name >> sex >> age;
+		cout << "Input num:"; cin >> num;
+		cout << "Input name:"; cin >> name;
+		cout << "Input sex:"; cin >> sex;
+		cout << "Input age:"; cin >> age;
 	}
 	void Output()
 	{

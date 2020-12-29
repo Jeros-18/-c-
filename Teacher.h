@@ -4,7 +4,7 @@
 #include "iostream"
 
 //Teacher class
-class Teacher :virtual public person
+class Teacher :public person
 {
 public:
 	char dept[20];//所在系部

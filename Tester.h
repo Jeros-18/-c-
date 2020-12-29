@@ -3,7 +3,7 @@
 
 #include "Person.h"
 
-class Tester :virtual public person
+class Tester : public person
 {
 public:
 	char testroom[10];
